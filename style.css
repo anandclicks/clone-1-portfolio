@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto&family=Signika+Negative:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color : #03B299;
+    --secondart-color : #000;
+}
+
+.main {
+    height: 100vh;
+}
+#nav-row {
+    height: 8%;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    border-bottom: 1px solid black;
+    
+}
+.nav-left, .nav-right {
+    height: 100%;
+}
+#contant-row {
+    height: 90%;
+}
+.right {
+    background-image: url('https://bikin.website/blog/wp-content/uploads/2021/02/Jenis-Web-Developer.jpg');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#nav-row h3 {
+    font-family: 'Signika Negative';
+}
+#nav-row  span {
+    color: var(--primary-color);
+}
+.center {
+    height: 80%;
+    width: 100%;
+    place-items: center;
+}
+.center p {
+    font-family: roboto;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.center h2 {
+    font-family: roboto;
+    text-transform: capitalize;
+}
+.center h2 span {
+    color: var(--primary-color);
+}
+.btn-1 {
+    background-color: var(--primary-color);
+    padding: 2vh 4vh;
+}
+/********************************************** main stylings complite  *************************************/
+.main-2 {
+    height: 100vh;
+    background-color: var(--primary-color);
+    position: relative;
+}
+/* its svg shape style code  */
+.custom-shape-divider-top-1700993340 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1700993340 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 40px;
+}
+
+.custom-shape-divider-top-1700993340 .shape-fill {
+    fill: #FFFFFF;
+}
+/* here the start c-2 code  */
+.c-2 {
+    height: 80%;
+}
+.wid {
+    height: 20%;
+}
+.skill {
+    height: calc(80% - 20%);
+}
+.my-skill {
+    height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+.footer {
+    height: 15vh;
+    background-color: #29454E;
+}
+.footer-main {
+    height: 100%;
+    /* border: 2px solid #dadada; */
+}
+#nav-top {
+    height: 60%;
+    width: 100%;
+}
+.links {
+    height: 100%;
+    width: 30%;
+}
+.main-link a i {
+    border: 1px solid wheat;
+    border-radius: 50%;
+    transition: ease-in-out 0.2s;
+}
+.main-link a:hover i {
+    background-color: #ffffff;
+    color: #29454E;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 480px) {
+    .main {
+        height: 120vh;
+    }
+    .left, .right {
+        height: 50%;
+    }
+    .right {
+        background-image: url('https://bikin.website/blog/wp-content/uploads/2021/02/Jenis-Web-Developer.jpg');
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+   .center {
+    height: 100%;
+    width: 100%;
+   }
+   /**************************************** main styling complite  ***************************************/
+   /**************************************** main-2 styling  ***************************************/
+   .custom-shape-divider-top-1700993340  {
+    height: 40px;
+    width: 100%;
+   }
+   .c-2 {
+    height: 100vh;
+}
+.wid {
+    height: 11%;
+}
+.skill {
+    height: calc(100% - 20%);
+}
+   .my-skill {
+    height: 28%;
+}
+/* footer work  */
+.links {
+    height: 100%;
+    width: 80%;
+}
+
+}
+@media screen and (min-width:480px) and (max-width:1024px) {
+    .main {
+       height: 130vh;
+    }
+    .left , .right {
+        height: 50%;
+    }
+    .right {
+        background-image: url('https://bikin.website/blog/wp-content/uploads/2021/02/Jenis-Web-Developer.jpg');
+        background-size: 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    /*************************************** main styling complite  *******************************/
+    
+    .my-skill {
+        height: 35%;
+    }
+}
